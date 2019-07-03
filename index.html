@@ -5,7 +5,10 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -79,16 +82,16 @@
 
 
 
-<meta name="description" content="生活不止眼前的苟且，还有诗与远方">
+<meta name="description" content="有麝自来香,莫要大风扬">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kedan&#39;s Bolg">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Kedan&#39;s Bolg">
-<meta property="og:description" content="生活不止眼前的苟且，还有诗与远方">
+<meta property="og:description" content="有麝自来香,莫要大风扬">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Kedan&#39;s Bolg">
-<meta name="twitter:description" content="生活不止眼前的苟且，还有诗与远方">
+<meta name="twitter:description" content="有麝自来香,莫要大风扬">
 
 
 
@@ -96,7 +99,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
+    scheme: 'Mist',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -160,7 +163,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">爱骑小毛驴的码农</p>
+        <p class="site-subtitle">一个关注技术与人文的IT博客</p>
       
   </div>
 
@@ -186,6 +189,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
           </a>
         </li>
       
@@ -252,12 +265,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/18/RocketMq在高并发抗压场景的应用方案/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/29/002/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ke Dan">
       <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpeg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -271,7 +284,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/06/18/RocketMq在高并发抗压场景的应用方案/" itemprop="url">RocketMq在高并发抗压场景的应用方案</a></h1>
+                <a class="post-title-link" href="/2019/06/29/002/" itemprop="url">RocketMq高并发场景应用</a></h1>
         
 
         <div class="post-meta">
@@ -283,17 +296,51 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-18T17:43:20+08:00">
-                2019-06-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-29T18:41:30+08:00">
+                2019-06-29
               </time>
             
 
             
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-07-03T11:00:39+08:00">
+                2019-07-03
+              </time>
             
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT技术/" itemprop="url" rel="index">
+                    <span itemprop="name">IT技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -304,6 +351,37 @@
 
           
 
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  3.1k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  12
+                </span>
+              
+            </div>
           
 
           
@@ -323,283 +401,209 @@
       
         
           
-            <h1 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h1><p>本文主要解析 <code>Namesrv</code>、<code>Broker</code> 如何实现高可用，<code>Producer</code>、<code>Consumer</code> 怎么与它们通信保证高可用。</p>
-<h1 id="2-Namesrv-高可用"><a href="#2-Namesrv-高可用" class="headerlink" title="2. Namesrv 高可用"></a>2. Namesrv 高可用</h1><p><strong>启动多个 Namesrv 实现高可用。</strong><br>相较于 <code>Zookeeper</code>、<code>Consul</code>、<code>Etcd</code> 等，<code>Namesrv</code> 是一个<strong>超轻量级</strong>的注册中心，提供<strong>命名服务</strong>。</p>
-<h2 id="2-1-Broker-注册到-Namesrv"><a href="#2-1-Broker-注册到-Namesrv" class="headerlink" title="2.1 Broker 注册到 Namesrv"></a>2.1 Broker 注册到 Namesrv</h2><ul>
-<li>📌 <strong>多个 Namesrv 之间，没有任何关系（不存在类似 Zookeeper 的 Leader/Follower 等角色），不进行通信与数据同步。通过 Broker 循环注册多个 Namesrv。</strong></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"> 1: // ⬇️⬇️⬇️【BrokerOuterAPI.java】</span><br><span class="line"> 2: public RegisterBrokerResult registerBrokerAll(</span><br><span class="line"> 3:     final String clusterName,</span><br><span class="line"> 4:     final String brokerAddr,</span><br><span class="line"> 5:     final String brokerName,</span><br><span class="line"> 6:     final long brokerId,</span><br><span class="line"> 7:     final String haServerAddr,</span><br><span class="line"> 8:     final TopicConfigSerializeWrapper topicConfigWrapper,</span><br><span class="line"> 9:     final List&lt;String&gt; filterServerList,</span><br><span class="line">10:     final boolean oneway,</span><br><span class="line">11:     final int timeoutMills) &#123;</span><br><span class="line">12:     RegisterBrokerResult registerBrokerResult = null;</span><br><span class="line">13: </span><br><span class="line">14:     List&lt;String&gt; nameServerAddressList = this.remotingClient.getNameServerAddressList();</span><br><span class="line">15:     if (nameServerAddressList != null) &#123;</span><br><span class="line">16:         for (String namesrvAddr : nameServerAddressList) &#123; // 循环多个 Namesrv</span><br><span class="line">17:             try &#123;</span><br><span class="line">18:                 RegisterBrokerResult result = this.registerBroker(namesrvAddr, clusterName, brokerAddr, brokerName, brokerId,</span><br><span class="line">19:                     haServerAddr, topicConfigWrapper, filterServerList, oneway, timeoutMills);</span><br><span class="line">20:                 if (result != null) &#123;</span><br><span class="line">21:                     registerBrokerResult = result;</span><br><span class="line">22:                 &#125;</span><br><span class="line">23: </span><br><span class="line">24:                 log.info(&quot;register broker to name server &#123;&#125; OK&quot;, namesrvAddr);</span><br><span class="line">25:             &#125; catch (Exception e) &#123;</span><br><span class="line">26:                 log.warn(&quot;registerBroker Exception, &#123;&#125;&quot;, namesrvAddr, e);</span><br><span class="line">27:             &#125;</span><br><span class="line">28:         &#125;</span><br><span class="line">29:     &#125;</span><br><span class="line">30: </span><br><span class="line">31:     return registerBrokerResult;</span><br><span class="line">32: &#125;</span><br></pre></td></tr></table></figure>
+          概述本文主要讲述rocketMq在高并发场景中能为系统提供怎样的并发能力，又是如果做到的。首先，我们来回顾下什么是高并发，在高并发下有哪些点会影响系统的性能。所谓高并发，引用一段架构师之路公众号究竟啥才是互联网架构高并发中的一段话来描述:
 
-<h2 id="2-2-Producer、Consumer-访问-Namesrv"><a href="#2-2-Producer、Consumer-访问-Namesrv" class="headerlink" title="2.2 Producer、Consumer 访问 Namesrv"></a>2.2 Producer、Consumer 访问 Namesrv</h2><ul>
-<li>📌 <strong>Producer、Consumer 从 Namesrv列表选择一个可连接的进行通信。</strong></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"> 1: // ⬇️⬇️⬇️【NettyRemotingClient.java】</span><br><span class="line"> 2: private Channel getAndCreateNameserverChannel() throws InterruptedException &#123;</span><br><span class="line"> 3:     // 返回已选择、可连接Namesrv</span><br><span class="line"> 4:     String addr = this.namesrvAddrChoosed.get();</span><br><span class="line"> 5:     if (addr != null) &#123;</span><br><span class="line"> 6:         ChannelWrapper cw = this.channelTables.get(addr);</span><br><span class="line"> 7:         if (cw != null &amp;&amp; cw.isOK()) &#123;</span><br><span class="line"> 8:             return cw.getChannel();</span><br><span class="line"> 9:         &#125;</span><br><span class="line">10:     &#125;</span><br><span class="line">11:     //</span><br><span class="line">12:     final List&lt;String&gt; addrList = this.namesrvAddrList.get();</span><br><span class="line">13:     if (this.lockNamesrvChannel.tryLock(LOCK_TIMEOUT_MILLIS, TimeUnit.MILLISECONDS)) &#123;</span><br><span class="line">14:         try &#123;</span><br><span class="line">15:             // 返回已选择、可连接的Namesrv</span><br><span class="line">16:             addr = this.namesrvAddrChoosed.get();</span><br><span class="line">17:             if (addr != null) &#123;</span><br><span class="line">18:                 ChannelWrapper cw = this.channelTables.get(addr);</span><br><span class="line">19:                 if (cw != null &amp;&amp; cw.isOK()) &#123;</span><br><span class="line">20:                     return cw.getChannel();</span><br><span class="line">21:                 &#125;</span><br><span class="line">22:             &#125;</span><br><span class="line">23:             // 从【Namesrv列表】中选择一个连接的返回</span><br><span class="line">24:             if (addrList != null &amp;&amp; !addrList.isEmpty()) &#123;</span><br><span class="line">25:                 for (int i = 0; i &lt; addrList.size(); i++) &#123;</span><br><span class="line">26:                     int index = this.namesrvIndex.incrementAndGet();</span><br><span class="line">27:                     index = Math.abs(index);</span><br><span class="line">28:                     index = index % addrList.size();</span><br><span class="line">29:                     String newAddr = addrList.get(index);</span><br><span class="line">30: </span><br><span class="line">31:                     this.namesrvAddrChoosed.set(newAddr);</span><br><span class="line">32:                     Channel channelNew = this.createChannel(newAddr);</span><br><span class="line">33:                     if (channelNew != null)</span><br><span class="line">34:                         return channelNew;</span><br><span class="line">35:                 &#125;</span><br><span class="line">36:             &#125;</span><br><span class="line">37:         &#125; catch (Exception e) &#123;</span><br><span class="line">38:             log.error(&quot;getAndCreateNameserverChannel: create name server channel exception&quot;, e);</span><br><span class="line">39:         &#125; finally &#123;</span><br><span class="line">40:             this.lockNamesrvChannel.unlock();</span><br><span class="line">41:         &#125;</span><br><span class="line">42:     &#125; else &#123;</span><br><span class="line">43:         log.warn(&quot;getAndCreateNameserverChannel: try to lock name server, but timeout, &#123;&#125;ms&quot;, LOCK_TIMEOUT_MILLIS);</span><br><span class="line">44:     &#125;</span><br><span class="line">45: </span><br><span class="line">46:     return null;</span><br><span class="line">47: &#125;</span><br></pre></td></tr></table></figure>
+高并发（High Concurrency）是互联网分布式系
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/06/29/002/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
 
-<h1 id="3-Broker-高可用"><a href="#3-Broker-高可用" class="headerlink" title="3. Broker 高可用"></a>3. Broker 高可用</h1><p><strong>启动多个 Broker分组 形成 集群 实现高可用。</strong><br><strong>Broker分组 = Master节点x1 + Slave节点xN。</strong><br>类似 <code>MySQL</code>，<code>Master节点</code> 提供<strong>读写</strong>服务，<code>Slave节点</code> 只提供<strong>读</strong>服务。</p>
-<h2 id="3-2-Broker-主从"><a href="#3-2-Broker-主从" class="headerlink" title="3.2 Broker 主从"></a>3.2 Broker 主从</h2><ul>
-<li><strong>每个分组，Master节点 不断发送新的 CommitLog 给 Slave节点。 Slave节点 不断上报本地的 CommitLog已经同步到的位置给 Master节点。</strong></li>
-<li><strong>Broker分组 与 Broker分组 之间没有任何关系，不进行通信与数据同步。</strong></li>
-<li><strong>消费进度 目前不支持 Master/Slave 同步。</strong><ul>
-<li><code>org.apache.rocketmq.broker.slave.SlaveSynchronize</code> 类，<code>Slave</code> 节点会从 <code>Master</code> 节点拉取消费进度、Topic 配置等等。</li>
-</ul>
-</li>
-</ul>
-<p>集群内，<code>Master</code>节点 有<strong>两种</strong>类型：<code>Master_SYNC</code>、<code>Master_ASYNC</code>：前者在 <code>Producer</code> 发送消息时，等待 <code>Slave</code>节点 存储完毕后再返回发送结果，而后者不需要等待。</p>
-<h3 id="3-1-1-配置"><a href="#3-1-1-配置" class="headerlink" title="3.1.1 配置"></a>3.1.1 配置</h3><p>目前官方提供三套配置：</p>
-<ul>
-<li><strong>2m-2s-async</strong></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>brokerClusterName</th>
-<th>brokerName</th>
-<th>brokerRole</th>
-<th>brokerId</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>DefaultCluster</td>
-<td>broker-a</td>
-<td>ASYNC_MASTER</td>
-<td>0</td>
-</tr>
-<tr>
-<td>DefaultCluster</td>
-<td>broker-a</td>
-<td>SLAVE</td>
-<td>1</td>
-</tr>
-<tr>
-<td>DefaultCluster</td>
-<td>broker-b</td>
-<td>ASYNC_MASTER</td>
-<td>0</td>
-</tr>
-<tr>
-<td>DefaultCluster</td>
-<td>broker-b</td>
-<td>SLAVE</td>
-<td>1</td>
-</tr>
-</tbody></table>
-<ul>
-<li><strong>2m-2s-sync</strong></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>brokerClusterName</th>
-<th>brokerName</th>
-<th>brokerRole</th>
-<th>brokerId</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>DefaultCluster</td>
-<td>broker-a</td>
-<td>SYNC_MASTER</td>
-<td>0</td>
-</tr>
-<tr>
-<td>DefaultCluster</td>
-<td>broker-a</td>
-<td>SLAVE</td>
-<td>1</td>
-</tr>
-<tr>
-<td>DefaultCluster</td>
-<td>broker-b</td>
-<td>SYNC_MASTER</td>
-<td>0</td>
-</tr>
-<tr>
-<td>DefaultCluster</td>
-<td>broker-b</td>
-<td>SLAVE</td>
-<td>1</td>
-</tr>
-</tbody></table>
-<ul>
-<li><strong>2m-noslave</strong></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>brokerClusterName</th>
-<th>brokerName</th>
-<th>brokerRole</th>
-<th>brokerId</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>DefaultCluster</td>
-<td>broker-a</td>
-<td>ASYNC_MASTER</td>
-<td>0</td>
-</tr>
-<tr>
-<td>DefaultCluster</td>
-<td>broker-b</td>
-<td>ASYNC_MASTER</td>
-<td>0</td>
-</tr>
-</tbody></table>
-<h3 id="3-1-2-组件"><a href="#3-1-2-组件" class="headerlink" title="3.1.2 组件"></a>3.1.2 组件</h3><p>再看具体实现代码之前，我们来看看 <code>Master</code>/<code>Slave</code>节点 包含的组件：<br><img src="http://static.iocoder.cn/images/RocketMQ/2017_05_14/04.png" alt="HA组件图.png"></p>
-<ul>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Master</span><br></pre></td></tr></table></figure>
+    
 
-<p>节点</p>
-<ul>
-<li><p><code>AcceptSocketService</code> ：接收 <code>Slave</code>节点 连接。</p>
-</li>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HAConnection</span><br></pre></td></tr></table></figure>
+    
 
-<ul>
-<li><code>ReadSocketService</code> ：<strong>读</strong>来自 <code>Slave</code>节点 的数据。</li>
-<li><code>WriteSocketService</code> ：<strong>写</strong>到往 <code>Slave</code>节点 的数据。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Slave</span><br></pre></td></tr></table></figure>
+    
 
-<p>节点</p>
-<ul>
-<li><code>HAClient</code> ：对 <code>Master</code>节点 连接、读写数据。</li>
-</ul>
-</li>
-</ul>
-<h3 id="3-1-3-通信协议"><a href="#3-1-3-通信协议" class="headerlink" title="3.1.3 通信协议"></a>3.1.3 通信协议</h3><p><code>Master</code>节点 与 <code>Slave</code>节点 <strong>通信协议</strong>很简单，只有如下两条。</p>
-<table>
-<thead>
-<tr>
-<th>对象</th>
-<th>用途</th>
-<th>第几位</th>
-<th>字段</th>
-<th>数据类型</th>
-<th>字节数</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Slave=&gt;Master</td>
-<td>上报CommitLog<strong>已经</strong>同步到的<strong>物理</strong>位置</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>0</td>
-<td>maxPhyOffset</td>
-<td>Long</td>
-<td>8</td>
-<td>CommitLog最大物理位置</td>
-</tr>
-<tr>
-<td>Master=&gt;Slave</td>
-<td>传输新的 <code>CommitLog</code> 数据</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>0</td>
-<td>fromPhyOffset</td>
-<td>Long</td>
-<td>8</td>
-<td>CommitLog开始物理位置</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>1</td>
-<td>size</td>
-<td>Int</td>
-<td>4</td>
-<td>传输CommitLog数据长度</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>2</td>
-<td>body</td>
-<td>Bytes</td>
-<td>size</td>
-<td>传输CommitLog数据</td>
-</tr>
-</tbody></table>
-<h3 id="3-1-4-Slave"><a href="#3-1-4-Slave" class="headerlink" title="3.1.4 Slave"></a>3.1.4 Slave</h3><p><img src="http://static.iocoder.cn/images/RocketMQ/2017_05_14/02.png" alt="HAClient顺序图"></p>
-<hr>
-<ul>
-<li><strong>Slave 主循环，实现了</strong>不断不断不断<strong>从 Master 传输 CommitLog 数据，上传 Master 自己本地的 CommitLog已经同步物理位置。</strong></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"> 1: // ⬇️⬇️⬇️【HAClient.java】</span><br><span class="line"> 2: public void run() &#123;</span><br><span class="line"> 3:     log.info(this.getServiceName() + &quot; service started&quot;);</span><br><span class="line"> 4: </span><br><span class="line"> 5:     while (!this.isStopped()) &#123;</span><br><span class="line"> 6:         try &#123;</span><br><span class="line"> 7:             if (this.connectMaster()) &#123;</span><br><span class="line"> 8:                 // 若到满足上报间隔，上报到Master进度</span><br><span class="line"> 9:                 if (this.isTimeToReportOffset()) &#123;</span><br><span class="line">10:                     boolean result = this.reportSlaveMaxOffset(this.currentReportedOffset);</span><br><span class="line">11:                     if (!result) &#123;</span><br><span class="line">12:                         this.closeMaster();</span><br><span class="line">13:                     &#125;</span><br><span class="line">14:                 &#125;</span><br><span class="line">15: </span><br><span class="line">16:                 this.selector.select(1000);</span><br><span class="line">17: </span><br><span class="line">18:                 // 处理读取事件</span><br><span class="line">19:                 boolean ok = this.processReadEvent();</span><br><span class="line">20:                 if (!ok) &#123;</span><br><span class="line">21:                     this.closeMaster();</span><br><span class="line">22:                 &#125;</span><br><span class="line">23: </span><br><span class="line">24:                 // 若进度有变化，上报到Master进度</span><br><span class="line">25:                 if (!reportSlaveMaxOffsetPlus()) &#123;</span><br><span class="line">26:                     continue;</span><br><span class="line">27:                 &#125;</span><br><span class="line">28: </span><br><span class="line">29:                 // Master过久未返回数据，关闭连接</span><br><span class="line">30:                 long interval = HAService.this.getDefaultMessageStore().getSystemClock().now() - this.lastWriteTimestamp;</span><br><span class="line">31:                 if (interval &gt; HAService.this.getDefaultMessageStore().getMessageStoreConfig()</span><br><span class="line">32:                     .getHaHousekeepingInterval()) &#123;</span><br><span class="line">33:                     log.warn(&quot;HAClient, housekeeping, found this connection[&quot; + this.masterAddress</span><br><span class="line">34:                         + &quot;] expired, &quot; + interval);</span><br><span class="line">35:                     this.closeMaster();</span><br><span class="line">36:                     log.warn(&quot;HAClient, master not response some time, so close connection&quot;);</span><br><span class="line">37:                 &#125;</span><br><span class="line">38:             &#125; else &#123;</span><br><span class="line">39:                 this.waitForRunning(1000 * 5);</span><br><span class="line">40:             &#125;</span><br><span class="line">41:         &#125; catch (Exception e) &#123;</span><br><span class="line">42:             log.warn(this.getServiceName() + &quot; service has exception. &quot;, e);</span><br><span class="line">43:             this.waitForRunning(1000 * 5);</span><br><span class="line">44:         &#125;</span><br><span class="line">45:     &#125;</span><br><span class="line">46: </span><br><span class="line">47:     log.info(this.getServiceName() + &quot; service end&quot;);</span><br><span class="line">48: &#125;</span><br></pre></td></tr></table></figure>
+    <footer class="post-footer">
+      
 
-<ul>
-<li>第 8 至 14 行 ：<strong>固定间隔（默认5s）</strong>向 <code>Master</code> 上报 <code>Slave</code> 本地 <code>CommitLog</code> 已经同步到的物理位置。该操作还有<strong>心跳</strong>的作用。</li>
-<li>第 16 至 22 行 ：处理 <code>Master</code> 传输 <code>Slave</code> 的 <code>CommitLog</code> 数据。</li>
-</ul>
-<hr>
-<ul>
-<li><strong>我们来看看 #dispatchReadRequest(…) 与 #reportSlaveMaxOffset(…) 是怎么实现的。</strong></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br></pre></td><td class="code"><pre><span class="line"> 1: // 【HAClient.java】</span><br><span class="line"> 2: /**</span><br><span class="line"> 3:  * 读取Master传输的CommitLog数据，并返回是异常</span><br><span class="line"> 4:  * 如果读取到数据，写入CommitLog</span><br><span class="line"> 5:  * 异常原因：</span><br><span class="line"> 6:  *   1. Master传输来的数据offset 不等于 Slave的CommitLog数据最大offset</span><br><span class="line"> 7:  *   2. 上报到Master进度失败</span><br><span class="line"> 8:  *</span><br><span class="line"> 9:  * @return 是否异常</span><br><span class="line">10:  */</span><br><span class="line">11: private boolean dispatchReadRequest() &#123;</span><br><span class="line">12:     final int msgHeaderSize = 8 + 4; // phyoffset + size</span><br><span class="line">13:     int readSocketPos = this.byteBufferRead.position();</span><br><span class="line">14: </span><br><span class="line">15:     while (true) &#123;</span><br><span class="line">16:         // 读取到请求</span><br><span class="line">17:         int diff = this.byteBufferRead.position() - this.dispatchPostion;</span><br><span class="line">18:         if (diff &gt;= msgHeaderSize) &#123;</span><br><span class="line">19:             // 读取masterPhyOffset、bodySize。使用dispatchPostion的原因是：处理数据“粘包”导致数据读取不完整。</span><br><span class="line">20:             long masterPhyOffset = this.byteBufferRead.getLong(this.dispatchPostion);</span><br><span class="line">21:             int bodySize = this.byteBufferRead.getInt(this.dispatchPostion + 8);</span><br><span class="line">22:             // 校验 Master传输来的数据offset 是否和 Slave的CommitLog数据最大offset 是否相同。</span><br><span class="line">23:             long slavePhyOffset = HAService.this.defaultMessageStore.getMaxPhyOffset();</span><br><span class="line">24:             if (slavePhyOffset != 0) &#123;</span><br><span class="line">25:                 if (slavePhyOffset != masterPhyOffset) &#123;</span><br><span class="line">26:                     log.error(&quot;master pushed offset not equal the max phy offset in slave, SLAVE: &quot;</span><br><span class="line">27:                         + slavePhyOffset + &quot; MASTER: &quot; + masterPhyOffset);</span><br><span class="line">28:                     return false;</span><br><span class="line">29:                 &#125;</span><br><span class="line">30:             &#125;</span><br><span class="line">31:             // 读取到消息</span><br><span class="line">32:             if (diff &gt;= (msgHeaderSize + bodySize)) &#123;</span><br><span class="line">33:                 // 写入CommitLog</span><br><span class="line">34:                 byte[] bodyData = new byte[bodySize];</span><br><span class="line">35:                 this.byteBufferRead.position(this.dispatchPostion + msgHeaderSize);</span><br><span class="line">36:                 this.byteBufferRead.get(bodyData);</span><br><span class="line">37:                 HAService.this.defaultMessageStore.appendToCommitLog(masterPhyOffset, bodyData);</span><br><span class="line">38:                 // 设置处理到的位置</span><br><span class="line">39:                 this.byteBufferRead.position(readSocketPos);</span><br><span class="line">40:                 this.dispatchPostion += msgHeaderSize + bodySize;</span><br><span class="line">41:                 // 上报到Master进度</span><br><span class="line">42:                 if (!reportSlaveMaxOffsetPlus()) &#123;</span><br><span class="line">43:                     return false;</span><br><span class="line">44:                 &#125;</span><br><span class="line">45:                 // 继续循环</span><br><span class="line">46:                 continue;</span><br><span class="line">47:             &#125;</span><br><span class="line">48:         &#125;</span><br><span class="line">49: </span><br><span class="line">50:         // 空间写满，重新分配空间</span><br><span class="line">51:         if (!this.byteBufferRead.hasRemaining()) &#123;</span><br><span class="line">52:             this.reallocateByteBuffer();</span><br><span class="line">53:         &#125;</span><br><span class="line">54: </span><br><span class="line">55:         break;</span><br><span class="line">56:     &#125;</span><br><span class="line">57: </span><br><span class="line">58:     return true;</span><br><span class="line">59: &#125;</span><br><span class="line">60: </span><br><span class="line">61: /**</span><br><span class="line">62:  * 上报进度</span><br><span class="line">63:  *</span><br><span class="line">64:  * @param maxOffset 进度</span><br><span class="line">65:  * @return 是否上报成功</span><br><span class="line">66:  */</span><br><span class="line">67: private boolean reportSlaveMaxOffset(final long maxOffset) &#123;</span><br><span class="line">68:     this.reportOffset.position(0);</span><br><span class="line">69:     this.reportOffset.limit(8);</span><br><span class="line">70:     this.reportOffset.putLong(maxOffset);</span><br><span class="line">71:     this.reportOffset.position(0);</span><br><span class="line">72:     this.reportOffset.limit(8);</span><br><span class="line">73: </span><br><span class="line">74:     for (int i = 0; i &lt; 3 &amp;&amp; this.reportOffset.hasRemaining(); i++) &#123;</span><br><span class="line">75:         try &#123;</span><br><span class="line">76:             this.socketChannel.write(this.reportOffset);</span><br><span class="line">77:         &#125; catch (IOException e) &#123;</span><br><span class="line">78:             log.error(this.getServiceName()</span><br><span class="line">79:                 + &quot;reportSlaveMaxOffset this.socketChannel.write exception&quot;, e);</span><br><span class="line">80:             return false;</span><br><span class="line">81:         &#125;</span><br><span class="line">82:     &#125;</span><br><span class="line">83: </span><br><span class="line">84:     return !this.reportOffset.hasRemaining();</span><br><span class="line">85: &#125;</span><br></pre></td></tr></table></figure>
+      
 
-<h3 id="3-1-5-Master"><a href="#3-1-5-Master" class="headerlink" title="3.1.5 Master"></a>3.1.5 Master</h3><ul>
-<li><strong>ReadSocketService 逻辑同 HAClient#processReadEvent(…) 基本相同，我们直接看代码。</strong></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"> 1: // ⬇️⬇️⬇️【ReadSocketService.java】</span><br><span class="line"> 2: private boolean processReadEvent() &#123;</span><br><span class="line"> 3:     int readSizeZeroTimes = 0;</span><br><span class="line"> 4: </span><br><span class="line"> 5:     // 清空byteBufferRead</span><br><span class="line"> 6:     if (!this.byteBufferRead.hasRemaining()) &#123;</span><br><span class="line"> 7:         this.byteBufferRead.flip();</span><br><span class="line"> 8:         this.processPostion = 0;</span><br><span class="line"> 9:     &#125;</span><br><span class="line">10: </span><br><span class="line">11:     while (this.byteBufferRead.hasRemaining()) &#123;</span><br><span class="line">12:         try &#123;</span><br><span class="line">13:             int readSize = this.socketChannel.read(this.byteBufferRead);</span><br><span class="line">14:             if (readSize &gt; 0) &#123;</span><br><span class="line">15:                 readSizeZeroTimes = 0;</span><br><span class="line">16: </span><br><span class="line">17:                 // 设置最后读取时间</span><br><span class="line">18:                 this.lastReadTimestamp = HAConnection.this.haService.getDefaultMessageStore().getSystemClock().now();</span><br><span class="line">19: </span><br><span class="line">20:                 if ((this.byteBufferRead.position() - this.processPostion) &gt;= 8) &#123;</span><br><span class="line">21:                     // 读取Slave 请求来的CommitLog的最大位置</span><br><span class="line">22:                     int pos = this.byteBufferRead.position() - (this.byteBufferRead.position() % 8);</span><br><span class="line">23:                     long readOffset = this.byteBufferRead.getLong(pos - 8);</span><br><span class="line">24:                     this.processPostion = pos;</span><br><span class="line">25: </span><br><span class="line">26:                     // 设置Slave CommitLog的最大位置</span><br><span class="line">27:                     HAConnection.this.slaveAckOffset = readOffset;</span><br><span class="line">28: </span><br><span class="line">29:                     // 设置Slave 第一次请求的位置</span><br><span class="line">30:                     if (HAConnection.this.slaveRequestOffset &lt; 0) &#123;</span><br><span class="line">31:                         HAConnection.this.slaveRequestOffset = readOffset;</span><br><span class="line">32:                         log.info(&quot;slave[&quot; + HAConnection.this.clientAddr + &quot;] request offset &quot; + readOffset);</span><br><span class="line">33:                     &#125;</span><br><span class="line">34: </span><br><span class="line">35:                     // 通知目前Slave进度。主要用于Master节点为同步类型的。</span><br><span class="line">36:                     HAConnection.this.haService.notifyTransferSome(HAConnection.this.slaveAckOffset);</span><br><span class="line">37:                 &#125;</span><br><span class="line">38:             &#125; else if (readSize == 0) &#123;</span><br><span class="line">39:                 if (++readSizeZeroTimes &gt;= 3) &#123;</span><br><span class="line">40:                     break;</span><br><span class="line">41:                 &#125;</span><br><span class="line">42:             &#125; else &#123;</span><br><span class="line">43:                 log.error(&quot;read socket[&quot; + HAConnection.this.clientAddr + &quot;] &lt; 0&quot;);</span><br><span class="line">44:                 return false;</span><br><span class="line">45:             &#125;</span><br><span class="line">46:         &#125; catch (IOException e) &#123;</span><br><span class="line">47:             log.error(&quot;processReadEvent exception&quot;, e);</span><br><span class="line">48:             return false;</span><br><span class="line">49:         &#125;</span><br><span class="line">50:     &#125;</span><br><span class="line">51: </span><br><span class="line">52:     return true;</span><br><span class="line">53: &#125;</span><br></pre></td></tr></table></figure>
+      
 
-<hr>
-<ul>
-<li><strong>WriteSocketService 计算 Slave开始同步的位置后，不断向 Slave 传输新的 CommitLog数据。</strong></li>
-</ul>
-<p><img src="http://static.iocoder.cn/images/RocketMQ/2017_05_14/01.png" alt="HA.WriteSocketService流程图"></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br></pre></td><td class="code"><pre><span class="line">  1: // ⬇️⬇️⬇️【WriteSocketService.java】</span><br><span class="line">  2: @Override</span><br><span class="line">  3: public void run() &#123;</span><br><span class="line">  4:     HAConnection.log.info(this.getServiceName() + &quot; service started&quot;);</span><br><span class="line">  5: </span><br><span class="line">  6:     while (!this.isStopped()) &#123;</span><br><span class="line">  7:         try &#123;</span><br><span class="line">  8:             this.selector.select(1000);</span><br><span class="line">  9: </span><br><span class="line"> 10:             // 未获得Slave读取进度请求，sleep等待。</span><br><span class="line"> 11:             if (-1 == HAConnection.this.slaveRequestOffset) &#123;</span><br><span class="line"> 12:                 Thread.sleep(10);</span><br><span class="line"> 13:                 continue;</span><br><span class="line"> 14:             &#125;</span><br><span class="line"> 15: </span><br><span class="line"> 16:             // 计算初始化nextTransferFromWhere</span><br><span class="line"> 17:             if (-1 == this.nextTransferFromWhere) &#123;</span><br><span class="line"> 18:                 if (0 == HAConnection.this.slaveRequestOffset) &#123;</span><br><span class="line"> 19:                     long masterOffset = HAConnection.this.haService.getDefaultMessageStore().getCommitLog().getMaxOffset();</span><br><span class="line"> 20:                     masterOffset = masterOffset - (masterOffset % HAConnection.this.haService.getDefaultMessageStore().getMessageStoreConfig().getMapedFileSizeCommitLog());</span><br><span class="line"> 21:                     if (masterOffset &lt; 0) &#123;</span><br><span class="line"> 22:                         masterOffset = 0;</span><br><span class="line"> 23:                     &#125;</span><br><span class="line"> 24: </span><br><span class="line"> 25:                     this.nextTransferFromWhere = masterOffset;</span><br><span class="line"> 26:                 &#125; else &#123;</span><br><span class="line"> 27:                     this.nextTransferFromWhere = HAConnection.this.slaveRequestOffset;</span><br><span class="line"> 28:                 &#125;</span><br><span class="line"> 29: </span><br><span class="line"> 30:                 log.info(&quot;master transfer data from &quot; + this.nextTransferFromWhere + &quot; to slave[&quot; + HAConnection.this.clientAddr</span><br><span class="line"> 31:                     + &quot;], and slave request &quot; + HAConnection.this.slaveRequestOffset);</span><br><span class="line"> 32:             &#125;</span><br><span class="line"> 33: </span><br><span class="line"> 34:             if (this.lastWriteOver) &#123;</span><br><span class="line"> 35:                 long interval = HAConnection.this.haService.getDefaultMessageStore().getSystemClock().now() - this.lastWriteTimestamp;</span><br><span class="line"> 36:                 if (interval &gt; HAConnection.this.haService.getDefaultMessageStore().getMessageStoreConfig().getHaSendHeartbeatInterval()) &#123; // 心跳</span><br><span class="line"> 37: </span><br><span class="line"> 38:                     // Build Header</span><br><span class="line"> 39:                     this.byteBufferHeader.position(0);</span><br><span class="line"> 40:                     this.byteBufferHeader.limit(headerSize);</span><br><span class="line"> 41:                     this.byteBufferHeader.putLong(this.nextTransferFromWhere);</span><br><span class="line"> 42:                     this.byteBufferHeader.putInt(0);</span><br><span class="line"> 43:                     this.byteBufferHeader.flip();</span><br><span class="line"> 44: </span><br><span class="line"> 45:                     this.lastWriteOver = this.transferData();</span><br><span class="line"> 46:                     if (!this.lastWriteOver)</span><br><span class="line"> 47:                         continue;</span><br><span class="line"> 48:                 &#125;</span><br><span class="line"> 49:             &#125; else &#123; // 未传输完成，继续传输</span><br><span class="line"> 50:                 this.lastWriteOver = this.transferData();</span><br><span class="line"> 51:                 if (!this.lastWriteOver)</span><br><span class="line"> 52:                     continue;</span><br><span class="line"> 53:             &#125;</span><br><span class="line"> 54: </span><br><span class="line"> 55:             // 选择新的CommitLog数据进行传输</span><br><span class="line"> 56:             SelectMappedBufferResult selectResult =</span><br><span class="line"> 57:                 HAConnection.this.haService.getDefaultMessageStore().getCommitLogData(this.nextTransferFromWhere);</span><br><span class="line"> 58:             if (selectResult != null) &#123;</span><br><span class="line"> 59:                 int size = selectResult.getSize();</span><br><span class="line"> 60:                 if (size &gt; HAConnection.this.haService.getDefaultMessageStore().getMessageStoreConfig().getHaTransferBatchSize()) &#123;</span><br><span class="line"> 61:                     size = HAConnection.this.haService.getDefaultMessageStore().getMessageStoreConfig().getHaTransferBatchSize();</span><br><span class="line"> 62:                 &#125;</span><br><span class="line"> 63: </span><br><span class="line"> 64:                 long thisOffset = this.nextTransferFromWhere;</span><br><span class="line"> 65:                 this.nextTransferFromWhere += size;</span><br><span class="line"> 66: </span><br><span class="line"> 67:                 selectResult.getByteBuffer().limit(size);</span><br><span class="line"> 68:                 this.selectMappedBufferResult = selectResult;</span><br><span class="line"> 69: </span><br><span class="line"> 70:                 // Build Header</span><br><span class="line"> 71:                 this.byteBufferHeader.position(0);</span><br><span class="line"> 72:                 this.byteBufferHeader.limit(headerSize);</span><br><span class="line"> 73:                 this.byteBufferHeader.putLong(thisOffset);</span><br><span class="line"> 74:                 this.byteBufferHeader.putInt(size);</span><br><span class="line"> 75:                 this.byteBufferHeader.flip();</span><br><span class="line"> 76: </span><br><span class="line"> 77:                 this.lastWriteOver = this.transferData();</span><br><span class="line"> 78:             &#125; else &#123; // 没新的消息，挂起等待</span><br><span class="line"> 79:                 HAConnection.this.haService.getWaitNotifyObject().allWaitForRunning(100);</span><br><span class="line"> 80:             &#125;</span><br><span class="line"> 81:         &#125; catch (Exception e) &#123;</span><br><span class="line"> 82: </span><br><span class="line"> 83:             HAConnection.log.error(this.getServiceName() + &quot; service has exception.&quot;, e);</span><br><span class="line"> 84:             break;</span><br><span class="line"> 85:         &#125;</span><br><span class="line"> 86:     &#125;</span><br><span class="line"> 87: </span><br><span class="line"> 88:     // 断开连接 &amp; 暂停写线程 &amp; 暂停读线程 &amp; 释放CommitLog</span><br><span class="line"> 89:     if (this.selectMappedBufferResult != null) &#123;</span><br><span class="line"> 90:         this.selectMappedBufferResult.release();</span><br><span class="line"> 91:     &#125;</span><br><span class="line"> 92: </span><br><span class="line"> 93:     this.makeStop();</span><br><span class="line"> 94: </span><br><span class="line"> 95:     readSocketService.makeStop();</span><br><span class="line"> 96: </span><br><span class="line"> 97:     haService.removeConnection(HAConnection.this);</span><br><span class="line"> 98: </span><br><span class="line"> 99:     SelectionKey sk = this.socketChannel.keyFor(this.selector);</span><br><span class="line">100:     if (sk != null) &#123;</span><br><span class="line">101:         sk.cancel();</span><br><span class="line">102:     &#125;</span><br><span class="line">103: </span><br><span class="line">104:     try &#123;</span><br><span class="line">105:         this.selector.close();</span><br><span class="line">106:         this.socketChannel.close();</span><br><span class="line">107:     &#125; catch (IOException e) &#123;</span><br><span class="line">108:         HAConnection.log.error(&quot;&quot;, e);</span><br><span class="line">109:     &#125;</span><br><span class="line">110: </span><br><span class="line">111:     HAConnection.log.info(this.getServiceName() + &quot; service end&quot;);</span><br><span class="line">112: &#125;</span><br><span class="line">113: </span><br><span class="line">114: /**</span><br><span class="line">115:  * 传输数据</span><br><span class="line">116:  */</span><br><span class="line">117: private boolean transferData() throws Exception &#123;</span><br><span class="line">118:     int writeSizeZeroTimes = 0;</span><br><span class="line">119:     // Write Header</span><br><span class="line">120:     while (this.byteBufferHeader.hasRemaining()) &#123;</span><br><span class="line">121:         int writeSize = this.socketChannel.write(this.byteBufferHeader);</span><br><span class="line">122:         if (writeSize &gt; 0) &#123;</span><br><span class="line">123:             writeSizeZeroTimes = 0;</span><br><span class="line">124:             this.lastWriteTimestamp = HAConnection.this.haService.getDefaultMessageStore().getSystemClock().now();</span><br><span class="line">125:         &#125; else if (writeSize == 0) &#123;</span><br><span class="line">126:             if (++writeSizeZeroTimes &gt;= 3) &#123;</span><br><span class="line">127:                 break;</span><br><span class="line">128:             &#125;</span><br><span class="line">129:         &#125; else &#123;</span><br><span class="line">130:             throw new Exception(&quot;ha master write header error &lt; 0&quot;);</span><br><span class="line">131:         &#125;</span><br><span class="line">132:     &#125;</span><br><span class="line">133: </span><br><span class="line">134:     if (null == this.selectMappedBufferResult) &#123;</span><br><span class="line">135:         return !this.byteBufferHeader.hasRemaining();</span><br><span class="line">136:     &#125;</span><br><span class="line">137: </span><br><span class="line">138:     writeSizeZeroTimes = 0;</span><br><span class="line">139: </span><br><span class="line">140:     // Write Body</span><br><span class="line">141:     if (!this.byteBufferHeader.hasRemaining()) &#123;</span><br><span class="line">142:         while (this.selectMappedBufferResult.getByteBuffer().hasRemaining()) &#123;</span><br><span class="line">143:             int writeSize = this.socketChannel.write(this.selectMappedBufferResult.getByteBuffer());</span><br><span class="line">144:             if (writeSize &gt; 0) &#123;</span><br><span class="line">145:                 writeSizeZeroTimes = 0;</span><br><span class="line">146:                 this.lastWriteTimestamp = HAConnection.this.haService.getDefaultMessageStore().getSystemClock().now();</span><br><span class="line">147:             &#125; else if (writeSize == 0) &#123;</span><br><span class="line">148:                 if (++writeSizeZeroTimes &gt;= 3) &#123;</span><br><span class="line">149:                     break;</span><br><span class="line">150:                 &#125;</span><br><span class="line">151:             &#125; else &#123;</span><br><span class="line">152:                 throw new Exception(&quot;ha master write body error &lt; 0&quot;);</span><br><span class="line">153:             &#125;</span><br><span class="line">154:         &#125;</span><br><span class="line">155:     &#125;</span><br><span class="line">156: </span><br><span class="line">157:     boolean result = !this.byteBufferHeader.hasRemaining() &amp;&amp; !this.selectMappedBufferResult.getByteBuffer().hasRemaining();</span><br><span class="line">158: </span><br><span class="line">159:     if (!this.selectMappedBufferResult.getByteBuffer().hasRemaining()) &#123;</span><br><span class="line">160:         this.selectMappedBufferResult.release();</span><br><span class="line">161:         this.selectMappedBufferResult = null;</span><br><span class="line">162:     &#125;</span><br><span class="line">163: </span><br><span class="line">164:     return result;</span><br><span class="line">165: &#125;</span><br></pre></td></tr></table></figure>
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
-<h3 id="3-1-6-Master-SYNC"><a href="#3-1-6-Master-SYNC" class="headerlink" title="3.1.6 Master_SYNC"></a>3.1.6 Master_SYNC</h3><ul>
-<li><strong>Producer 发送消息时，Master_SYNC节点 会等待 Slave节点 存储完毕后再返回发送结果。</strong></li>
-</ul>
-<p>核心代码如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"> 1: // ⬇️⬇️⬇️【CommitLog.java】</span><br><span class="line"> 2: public PutMessageResult putMessage(final MessageExtBrokerInner msg) &#123;</span><br><span class="line"> 3:     // ....省略处理发送代码 </span><br><span class="line"> 4:     // Synchronous write double 如果是同步Master，同步到从节点</span><br><span class="line"> 5:     if (BrokerRole.SYNC_MASTER == this.defaultMessageStore.getMessageStoreConfig().getBrokerRole()) &#123;</span><br><span class="line"> 6:         HAService service = this.defaultMessageStore.getHaService();</span><br><span class="line"> 7:         if (msg.isWaitStoreMsgOK()) &#123;</span><br><span class="line"> 8:             // Determine whether to wait</span><br><span class="line"> 9:             if (service.isSlaveOK(result.getWroteOffset() + result.getWroteBytes())) &#123;</span><br><span class="line">10:                 if (null == request) &#123;</span><br><span class="line">11:                     request = new GroupCommitRequest(result.getWroteOffset() + result.getWroteBytes());</span><br><span class="line">12:                 &#125;</span><br><span class="line">13:                 service.putRequest(request);</span><br><span class="line">14: </span><br><span class="line">15:                 // 唤醒WriteSocketService</span><br><span class="line">16:                 service.getWaitNotifyObject().wakeupAll();</span><br><span class="line">17: </span><br><span class="line">18:                 boolean flushOK = request.waitForFlush(this.defaultMessageStore.getMessageStoreConfig().getSyncFlushTimeout());</span><br><span class="line">19:                 if (!flushOK) &#123;</span><br><span class="line">20:                     log.error(&quot;do sync transfer other node, wait return, but failed, topic: &quot; + msg.getTopic() + &quot; tags: &quot;</span><br><span class="line">21:                         + msg.getTags() + &quot; client address: &quot; + msg.getBornHostString());</span><br><span class="line">22:                     putMessageResult.setPutMessageStatus(PutMessageStatus.FLUSH_SLAVE_TIMEOUT);</span><br><span class="line">23:                 &#125;</span><br><span class="line">24:             &#125;</span><br><span class="line">25:             // Slave problem</span><br><span class="line">26:             else &#123;</span><br><span class="line">27:                 // Tell the producer, slave not available</span><br><span class="line">28:                 putMessageResult.setPutMessageStatus(PutMessageStatus.SLAVE_NOT_AVAILABLE);</span><br><span class="line">29:             &#125;</span><br><span class="line">30:         &#125;</span><br><span class="line">31:     &#125;</span><br><span class="line">32: </span><br><span class="line">33:     return putMessageResult;</span><br><span class="line">34: &#125;</span><br></pre></td></tr></table></figure>
 
-<ul>
-<li>第 16 行 ：唤醒</li>
-</ul>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WriteSocketService</span><br></pre></td></tr></table></figure>
+    
+      
 
-<p>  。</p>
-<ul>
-<li>唤醒后，<code>WriteSocketService</code> 挂起等待新消息结束，<code>Master</code> 传输 <code>Slave</code> 新的 <code>CommitLog</code> 数据。</li>
-<li><code>Slave</code> 收到数据后，<strong>立即</strong>上报最新的 <code>CommitLog</code> 同步进度到 <code>Master</code>。<code>ReadSocketService</code> 唤醒<strong>第 18 行</strong>：<code>request#waitForFlush(...)</code>。</li>
-</ul>
-<p>我们来看下 <code>GroupTransferService</code> 的核心逻辑代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"> 1: // ⬇️⬇️⬇️【GroupTransferService.java】</span><br><span class="line"> 2: private void doWaitTransfer() &#123;</span><br><span class="line"> 3:     synchronized (this.requestsRead) &#123;</span><br><span class="line"> 4:         if (!this.requestsRead.isEmpty()) &#123;</span><br><span class="line"> 5:             for (CommitLog.GroupCommitRequest req : this.requestsRead) &#123;</span><br><span class="line"> 6:                 // 等待Slave上传进度</span><br><span class="line"> 7:                 boolean transferOK = HAService.this.push2SlaveMaxOffset.get() &gt;= req.getNextOffset();</span><br><span class="line"> 8:                 for (int i = 0; !transferOK &amp;&amp; i &lt; 5; i++) &#123;</span><br><span class="line"> 9:                     this.notifyTransferObject.waitForRunning(1000); // 唤醒</span><br><span class="line">10:                     transferOK = HAService.this.push2SlaveMaxOffset.get() &gt;= req.getNextOffset();</span><br><span class="line">11:                 &#125;</span><br><span class="line">12: </span><br><span class="line">13:                 if (!transferOK) &#123;</span><br><span class="line">14:                     log.warn(&quot;transfer messsage to slave timeout, &quot; + req.getNextOffset());</span><br><span class="line">15:                 &#125;</span><br><span class="line">16: </span><br><span class="line">17:                 // 唤醒请求，并设置是否Slave同步成功</span><br><span class="line">18:                 req.wakeupCustomer(transferOK);</span><br><span class="line">19:             &#125;</span><br><span class="line">20: </span><br><span class="line">21:             this.requestsRead.clear();</span><br><span class="line">22:         &#125;</span><br><span class="line">23:     &#125;</span><br><span class="line">24: &#125;</span><br></pre></td></tr></table></figure>
+  
 
-<h2 id="3-2-Producer-发送消息"><a href="#3-2-Producer-发送消息" class="headerlink" title="3.2 Producer 发送消息"></a>3.2 Producer 发送消息</h2><ul>
-<li><strong>Producer 发送消息时，会对 Broker集群 的所有队列进行选择。</strong></li>
-</ul>
-<p>核心代码如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"> 1: // ⬇️⬇️⬇️【DefaultMQProducerImpl.java】</span><br><span class="line"> 2: private SendResult sendDefaultImpl(//</span><br><span class="line"> 3:     Message msg, //</span><br><span class="line"> 4:     final CommunicationMode communicationMode, //</span><br><span class="line"> 5:     final SendCallback sendCallback, //</span><br><span class="line"> 6:     final long timeout//</span><br><span class="line"> 7: ) throws MQClientException, RemotingException, MQBrokerException, InterruptedException &#123;</span><br><span class="line"> 8:     // .... 省略：处理【校验逻辑】</span><br><span class="line"> 9:     // 获取 Topic路由信息</span><br><span class="line">10:     TopicPublishInfo topicPublishInfo = this.tryToFindTopicPublishInfo(msg.getTopic());</span><br><span class="line">11:     if (topicPublishInfo != null &amp;&amp; topicPublishInfo.ok()) &#123;</span><br><span class="line">12:         MessageQueue mq = null; // 最后选择消息要发送到的队列</span><br><span class="line">13:         Exception exception = null;</span><br><span class="line">14:         SendResult sendResult = null; // 最后一次发送结果</span><br><span class="line">15:         int timesTotal = communicationMode == CommunicationMode.SYNC ? 1 + this.defaultMQProducer.getRetryTimesWhenSendFailed() : 1; // 同步多次调用</span><br><span class="line">16:         int times = 0; // 第几次发送</span><br><span class="line">17:         String[] brokersSent = new String[timesTotal]; // 存储每次发送消息选择的broker名</span><br><span class="line">18:         // 循环调用发送消息，直到成功</span><br><span class="line">19:         for (; times &lt; timesTotal; times++) &#123;</span><br><span class="line">20:             String lastBrokerName = null == mq ? null : mq.getBrokerName();</span><br><span class="line">21:             MessageQueue tmpmq = this.selectOneMessageQueue(topicPublishInfo, lastBrokerName); // 选择消息要发送到的队列</span><br><span class="line">22:             if (tmpmq != null) &#123;</span><br><span class="line">23:                 mq = tmpmq;</span><br><span class="line">24:                 brokersSent[times] = mq.getBrokerName();</span><br><span class="line">25:                 try &#123;</span><br><span class="line">26:                     beginTimestampPrev = System.currentTimeMillis();</span><br><span class="line">27:                     // 调用发送消息核心方法</span><br><span class="line">28:                     sendResult = this.sendKernelImpl(msg, mq, communicationMode, sendCallback, topicPublishInfo, timeout);</span><br><span class="line">29:                     endTimestamp = System.currentTimeMillis();</span><br><span class="line">30:                     // 更新Broker可用性信息</span><br><span class="line">31:                     this.updateFaultItem(mq.getBrokerName(), endTimestamp - beginTimestampPrev, false);</span><br><span class="line">32:                     // .... 省略：处理【发送返回结果】</span><br><span class="line">33:                     &#125;</span><br><span class="line">34:                 &#125; catch (e) &#123; // .... 省略：处理【异常】</span><br><span class="line">35:                     </span><br><span class="line">36:                 &#125;</span><br><span class="line">37:             &#125; else &#123;</span><br><span class="line">38:                 break;</span><br><span class="line">39:             &#125;</span><br><span class="line">40:         &#125;</span><br><span class="line">41:         // .... 省略：处理【发送返回结果】</span><br><span class="line">42:     &#125;</span><br><span class="line">43:     // .... 省略：处理【找不到消息路由】</span><br><span class="line">44: &#125;</span><br></pre></td></tr></table></figure>
+  
+  
+  
 
-<p>如下是调试 <code>#sendDefaultImpl(...)</code> 时 <code>TopicPublishInfo</code> 的结果，<code>Producer</code> 获得到了 <code>broker-a</code>,<code>broker-b</code> 两个 <code>Broker</code>分组 的消息队列：<br><img src="http://static.iocoder.cn/images/RocketMQ/2017_05_14/05.png" alt="Producer.TopicPublishInfo.调试.png"></p>
-<h2 id="3-3-Consumer-消费消息"><a href="#3-3-Consumer-消费消息" class="headerlink" title="3.3 Consumer 消费消息"></a>3.3 Consumer 消费消息</h2><ul>
-<li><strong>Consumer 消费消息时，会对 Broker集群 的所有队列进行选择。</strong></li>
-</ul>
-<h1 id="4-总结"><a href="#4-总结" class="headerlink" title="4. 总结"></a>4. 总结</h1><p><img src="http://static.iocoder.cn/images/RocketMQ/2017_05_14/03.jpeg" alt="HA总结.jpeg"></p>
-<p><a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a>)</p>
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/18/001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ke Dan">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kedan's Bolg">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/06/18/001/" itemprop="url">RocketMq底层实现原理</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-18T17:43:20+08:00">
+                2019-06-18
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-07-01T17:23:22+08:00">
+                2019-07-01
+              </time>
+            
+          </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT技术/" itemprop="url" rel="index">
+                    <span itemprop="name">IT技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  3.7k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  19
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          1. 概述本文主要解析 Namesrv、Broker 如何实现高可用，Producer、Consumer 怎么与它们通信保证高可用。
+2. Namesrv 高可用启动多个 Namesrv 实现高可用。相较于 Zookeeper、Consul、Etcd 等，Namesrv 是一个超轻量级的注册中心，提
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/06/18/001/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -668,10 +672,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Ke Dan">
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpeg" alt="Ke Dan">
             
               <p class="site-author-name" itemprop="name">Ke Dan</p>
-              <p class="site-description motion-element" itemprop="description">生活不止眼前的苟且，还有诗与远方</p>
+              <p class="site-description motion-element" itemprop="description">有麝自来香,莫要大风扬</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -681,20 +685,54 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/yufei1989" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://user.qzone.qq.com/785522154/infocenter" target="_blank" title="QQ">
+                      
+                        <i class="fa fa-fw fa-qq"></i>QQ</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -729,18 +767,21 @@
   <span class="author" itemprop="copyrightHolder">Ke Dan</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">6.9k</span>
+  
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -787,6 +828,8 @@
   
 
 
+  
+
 
 
 
@@ -827,6 +870,11 @@
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
 
   
 
@@ -839,13 +887,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
 
   
 
@@ -910,5 +951,5 @@
 
   
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":320},"mobile":{"show":false},"eact":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
